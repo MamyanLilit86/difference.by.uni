@@ -17,7 +17,6 @@ import java.util.List;
 public class Job {
 
     private static long withUni, currentOldDataSize, lostDataCount;
-    private static DifferenceConfig differenceConfig = new DifferenceConfig();
     private static String collection;
 
     public Job(@Value("${mongo.db.new}") String databaseNew,
