@@ -1,0 +1,11 @@
+ardis:
+  difference:
+    by:
+      uni:
+        value:
+          databaseNew: entity_jo_registry
+          collectionNew: node_organization
+          databaseOld: entity_jo_registry_old
+          collectionOld: node_organization
+          databaseDif: entity_jo_registris_difference
+          collectionDif: result
